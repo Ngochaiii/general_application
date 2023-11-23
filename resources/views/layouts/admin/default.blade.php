@@ -13,11 +13,11 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
-        @include('layouts.admin.default.header')
         @include('layouts.admin.default.nav')
         @include('layouts.admin.default.sidebar')
         <div class="content-wrapper">
             @include('layouts.admin.default.breakcrum')
+            @include('layouts.admin.default.header')
             @yield('content')
         </div>
     </div>
